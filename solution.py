@@ -243,7 +243,7 @@ if __name__ == "__main__":
     hard_diag_sudoku_grid = '...1.6...3...5...1....7....4...9...5.157.239.7...3...2....8....6...1...7...9.7...'
 
     
-    puzzle = med_diag_sudoku_grid
+    puzzle = easy_diag_sudoku_grid
     
     display(grid2values(puzzle))
     result = solve(puzzle)
